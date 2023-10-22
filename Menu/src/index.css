@@ -1,0 +1,91 @@
+*{
+  margin:0rem;
+  padding:0rem;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+article{
+  display:flex;
+  flex-wrap: wrap;
+}
+.title {
+  text-align:center;
+  font-size: 1.2rem;
+
+}
+.title .underline{
+  height:.25rem;
+  width:5vw;
+  margin: auto;
+  background:teal;
+}
+main>div:nth-child(2){
+  text-align: center;
+ 
+}
+.btn{
+  text-transform: capitalize;
+  margin:1rem;
+  border:none;
+  font-size: 1rem;
+ color:rgb(203, 203, 16);
+ background:white;
+ font-size: 1.2rem;
+}
+.btn:hover{
+border-bottom: 2px solid red;
+transition:linear .2s ;
+}
+.btn:focus{
+  border:2px solid red ;
+  border-radius:.5rem; 
+  padding:.25rem;
+}
+section{
+  display: flex;
+  width: 49vw;
+  height: 12rem;
+ 
+  
+}
+section>div{
+  margin:.25rem;
+}
+section div.title-price{
+  display: flex;
+  position: relative;
+  font-size: .75rem;
+}
+.title-price h2:nth-child(2){
+  color: blue;
+    align-self: center;
+    position: absolute;
+    right: 0px;
+
+}
+
+img{
+  width: 18rem;
+    height: 11rem;
+  
+    border: 2px solid yellow;
+    border-radius: 10px;
+ 
+  
+}
+
+
+  
+
+
+
+.title-price-underline{
+  height:.25rem;
+  background-color:teal;
+  width:90%;
+  margin:.5rem auto;
+  border-radius: 1rem;
+
+}
